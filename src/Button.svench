@@ -1,0 +1,11 @@
+<script>
+  import { View } from 'svench'
+  import Button from './Button.svelte'
+  import Sveld from './Sveld.svelte'
+  import docs from './Button.svelte?raw&sveld'
+</script>
+
+<View name="default">
+  <Button />
+  <Sveld {...docs} />
+</View>
